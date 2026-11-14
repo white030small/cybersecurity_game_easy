@@ -147,13 +147,6 @@ namespace SecurityTestGame
             btnRestart.Size = new Size(120, 35);
             btnRestart.Click += delegate { RestartGame(); };
             this.Controls.Add(btnRestart);
-
-            Label lblHint = new Label();
-            lblHint.Location = new Point(10, 420);
-            lblHint.Size = new Size(520, 30);
-            lblHint.ForeColor = Color.Gray;
-            lblHint.Text = "資安測試提示：Cheat Engine 掃記憶體、dnSpy 反編譯 EXE...";
-            this.Controls.Add(lblHint);
         }
 
         private void UpdateUI()
