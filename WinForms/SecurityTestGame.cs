@@ -29,7 +29,7 @@ namespace SecurityTestGame
 
         // === 商人 ===
         public int potionPrice = 1;              // 回血瓶 1 金幣回 2 HP
-        public int potionHealAmount = 10;
+        public int potionHealAmount = 30;
         public int gloveePrice = 5;              // 力量手套 5 金幣，下次攻擊 +10
         public int gloveBonus = 10;
         public int berserkerPrice = 20;          // 狂戰士藥水 20 金幣，永久攻擊 +5
@@ -265,7 +265,7 @@ namespace SecurityTestGame
             if (enemyHP <= 0)
             {
                 enemyAlive = false;
-                coins += 1; // 殺一隻只給 1 金幣
+                coins += 2; // 殺一隻只給 1 金幣
                 msg = "敵人被擊敗！獲得 1 金幣。";
             }
             else
