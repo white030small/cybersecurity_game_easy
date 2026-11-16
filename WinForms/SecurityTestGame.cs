@@ -29,7 +29,7 @@ namespace SecurityTestGame
 
         // === 商人 ===
         public int potionPrice = 1;              // 回血瓶 1 金幣回 2 HP
-        public int potionHealAmount = 2;
+        public int potionHealAmount = 10;
         public int gloveePrice = 5;              // 力量手套 5 金幣，下次攻擊 +10
         public int gloveBonus = 10;
         public int berserkerPrice = 20;          // 狂戰士藥水 20 金幣，永久攻擊 +5
